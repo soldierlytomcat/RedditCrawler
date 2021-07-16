@@ -14,7 +14,6 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -338,3 +337,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+credentials.txt
