@@ -22,6 +22,8 @@ To install requirements:
 - numpy
 
 >📋Move Virual environment folder 'Reddit Post Crawler' (containing /reddit-crawler-env) to the /bin/Debug folder
+>Create Database table as defined by this [Schema](![image](https://user-images.githubusercontent.com/43216110/126047287-b41b1d33-b87e-4beb-9eb2-8fe638edbc4b.png))
+
 
 
 ## Flow
