@@ -13,6 +13,7 @@ This repository is the official implementation of [My Paper Title](https://googl
 ## Requirements
 
 Visual Studio 2015 or higher
+Microsoft SQL Server
 
 ### Nuget packages
 - Dapper Micro-ORM
@@ -29,13 +30,18 @@ Visual Studio 2015 or higher
 
 To install requirements:
 
-- Move Reddit Post Crawler containing /reddit-crawler-env to the /bin/Debug folder
+- Move Virual environment folder 'Reddit Post Crawler' (containing /reddit-crawler-env) to the /bin/Debug folder
 -
 
 
 ## Flow
 
-To train the model(s) in the paper, run this command:
+- Create a [New reddit app](https://ssl.reddit.com/prefs/apps/)
+- Open praw_scrapper.py file in the virual environment (Reddit Post Crawler) and add app credentials to initialize praw
+- Activate virual environment and run 'praw_scrapper.py'
+- After crawling for posts and saved to new_all_posts.csv (**new and **all are named to indicate the filter values of the scrapper, changeable in praw_scrapper.py)
+- Add microsoft server connection credentials to App.config
+- Build and Run the Visual Studio project to start indexing and validating posts   
 
 ```train
 python train.py --input-data <path_to_data> --alpha 10 --beta 20
