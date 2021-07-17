@@ -46,6 +46,3 @@ To install requirements:
 ## Results
 Resulting datasets and processed dataset [here](https://drive.google.com/drive/folders/1H4hYrTOpoChgHIshN1Fb1FkbzR_N4v-H)
 
-## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository. 
