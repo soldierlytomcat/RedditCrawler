@@ -19,7 +19,7 @@ To install requirements:
 ### Python packages
 - pandas
 - praw
--numpy
+- numpy
 
 >📋Move Virual environment folder 'Reddit Post Crawler' (containing /reddit-crawler-env) to the /bin/Debug folder
 
