@@ -1,6 +1,5 @@
-# RedditCrawler
-Reddit post crawler and phish identification implemenation 
-This repository is the official implementation of [My Paper Title](https://google.com). 
+# Machine Learning Approach for Identifying Suspicious Uniform Resource Locators (URLs) on Reddit Social Network
+This repository is the implementation of a Reddit post crawler and phish URL identification using VirusTotal. 
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
