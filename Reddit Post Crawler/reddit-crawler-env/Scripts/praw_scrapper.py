@@ -5,29 +5,12 @@ from time import sleep
 import time
 from datetime import datetime
 
-# from pprint import pprint
-# import logging
-
-# Get credentials from DEFAULT instance in praw.ini
-# reddit = praw.Reddit(user_agent="user_agent",
-#                      client_id="client_id",
-#                      client_secret="client_secret", \
-#                      username="username", \
-#                      password="password")
 
 
-# reddit = praw.Reddit(client_id='SbxILTZt4J3j_w', \
-#                      client_secret='yI93RzUFonzN1VBAd3fT2_CspIqJlA', \
-#                      user_agent='post_crawler', \
-#                      username='redditdev123', \
-#                      password='redditdev@123')
-
-reddit = praw.Reddit(client_id='9hfyyczAQtWuEw',\
-                     client_secret='dWKlchmbAmLb-5LCMpnCv2sOzHzhfQ',\
-                     user_agent='Post crawler project',\
-                    #  username='oakenterror',\
-                    #  password='oladeleoladele123'
-                     )
+reddit = praw.Reddit(client_id='**Client ID**',\
+                     client_secret='**Client Secret**',\
+                     user_agent='**Project Name**'
+                   )
 
 print(reddit.read_only)
 
