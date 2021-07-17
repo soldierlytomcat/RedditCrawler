@@ -1,10 +1,4 @@
 # RedditCrawler
-Reddit crawler and exporter to sql database 
-
-
->📋  A template README.md for code accompanying a Machine Learning paper
-
-# RedditCrawler
 Reddit post crawler and phish identification implemenation 
 This repository is the official implementation of [My Paper Title](https://google.com). 
 
@@ -12,6 +6,7 @@ This repository is the official implementation of [My Paper Title](https://googl
 
 ## Requirements
 
+To install requirements:
 - Visual Studio 2015 or higher
 - Microsoft SQL Server
 
@@ -28,10 +23,7 @@ This repository is the official implementation of [My Paper Title](https://googl
 - praw
 - numpy
 
-To install requirements:
-
 - Move Virual environment folder 'Reddit Post Crawler' (containing /reddit-crawler-env) to the /bin/Debug folder
--
 
 
 ## Flow
