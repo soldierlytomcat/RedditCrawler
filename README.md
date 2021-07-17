@@ -1,7 +1,6 @@
 # Machine Learning Approach for Identifying Suspicious Uniform Resource Locators (URLs) on Reddit Social Network
 This repository is the implementation of a Reddit post crawler and phish URL identification using VirusTotal. 
-
->📋 
+ 
 
 ## Requirements
 
@@ -22,7 +21,7 @@ To install requirements:
 - praw
 -numpy
 
-- Move Virual environment folder 'Reddit Post Crawler' (containing /reddit-crawler-env) to the /bin/Debug folder
+>📋Move Virual environment folder 'Reddit Post Crawler' (containing /reddit-crawler-env) to the /bin/Debug folder
 
 
 ## Flow
