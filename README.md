@@ -33,7 +33,7 @@ To install requirements:
 
 - Create a [New reddit app](https://ssl.reddit.com/prefs/apps/)
 - Open praw_scrapper.py file in the virual environment (Reddit Post Crawler) and add app credentials to initialize praw
-- Activate virual environment and run 'praw_scrapper.py'
+- Activate virtual environment and run 'praw_scrapper.py'
 - After crawling for posts and saved to new_all_posts.csv (**new and **all are named to indicate the filter values of the scrapper, changeable in praw_scrapper.py)
 - Add microsoft server connection credentials to App.config
 - Build and Run the Visual Studio project to start indexing and validating posts   
